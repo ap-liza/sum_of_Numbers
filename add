@@ -1,0 +1,14 @@
+def sumofNumbers():
+    number = int(input("Enter a number greater than 1: "))
+    sum = 0
+    initial = 1
+    if number > 0:
+        while initial <= number:
+            sum = sum + initial
+            initial = initial + 1
+        print(f"The sum of the first {number} is: {sum}")
+    print("Input is invalid")
+
+    
+sumofNumbers()
+    
